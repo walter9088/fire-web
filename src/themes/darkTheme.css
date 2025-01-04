@@ -1,0 +1,11 @@
+:root {
+  --background-color: #333333;
+  --text-color: #ffffff;
+  --primary-color: #007bff;
+  --primary-color-hover: #0056b3;
+}
+
+[data-theme='dark'] {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
